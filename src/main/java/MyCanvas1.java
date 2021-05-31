@@ -9,8 +9,6 @@ public class MyCanvas1 extends Canvas {
 
     @Override
     public void paint(Graphics g) {
-        Graphics2D g2 = (Graphics2D) g;
-        g2.setStroke(new BasicStroke(5));
         for(int i = 0; i <= 360; i++){
             double j = i * Math.PI / 360;
             int x1 = (int)(140-100*Math.sin(j));
